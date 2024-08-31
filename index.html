@@ -219,21 +219,22 @@
 							<div class="pub-publication ">IEEE International Symposium on Biomedical Imaging (ISBI 2024)</div>
 							<p>
 								<a class="btn btn-primary btn-outline btn-xs" onclick="var div = document.getElementById('Mo2E_ab'); if (div.style.display !== 'none') {div.style.display = 'none';} else {div.style.display = 'block';}">Abstract</a>
-								<a class="btn btn-primary btn-outline btn-xs " href="https://drive.google.com/file/d/1nrJyHJ1GtA13wZVrIZXOEmJTb-ytweFS/view">PDF</a>
+								<a class="btn btn-primary btn-outline btn-xs " href="https://ieeexplore.ieee.org/abstract/document/10635212">PDF</a>
 								<a class="btn btn-primary btn-outline btn-xs " href="https://anonymous.4open.science/r/submission-5047">Code</a>
 								<a class="btn btn-primary btn-outline btn-xs" onclick="var div = document.getElementById('Mo2E_bib'); if (div.style.display !== 'none') {div.style.display = 'none';} else {div.style.display = 'block';}">BibTeX</a>
 <pre id="Mo2E_ab", style="display:none">
 	Class imbalance in the medical image dataset is almost inherent due to the limited availability of clinical data for certain diseases and patient populations. Under-represented classes in the training set affect the classification task because the classifier tends to learn more from the majority classes, which are more common in the dataset and ignore data from the minority classes. To mitigate this issue, we propose a method to learn using two different convolutional neural network-based experts; such experts try to learn boundaries within the head classes, between the head and tail classes, and within the tail classes. During expert training, we integrate the MixUp regularization method to augment imbalanced data, employing distinct data sampling strategies for more effective mixing compared to random selection in traditional MixUp. During the inference phase, we combine the logits of the different experts based on their expertise in the corresponding classes. This way, we can improve the accuracy of the head and tail classes. Experiments using highly imbalanced and long-tailed datasets demonstrate the effectiveness of the suggested framework.
 </pre>
-<!-- <pre id="Mo2E_bib", style="display:none"> -->
-	<!-- @inproceedings{basak2023pseudo,
-		title={Pseudo-Label Guided Contrastive Learning for Semi-Supervised Medical Image Segmentation},
-		author={Basak, Hritam and Yin, Zhaozheng},
-		booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-		pages={19786--19797},
-		year={2023}
-	  } -->
-<!-- }}</pre>-->
+<pre id="Mo2E_bib", style="display:none"> -->
+	@inproceedings{ansari2024mo2e,
+  		title={Mo2E: Mixture of Two Experts for Class-Imbalanced Learning from Medical Images},
+  		author={Ansari, Faizanuddin and Bhattacharya, Agnish and Saha, Biswajit and Das, Swagatam},
+  		booktitle={2024 IEEE International Symposium on Biomedical Imaging (ISBI)},
+  		pages={1--5},
+  		year={2024},
+  		organization={IEEE}
+	  }
+	</pre>
 							</p>
 						</div>
 					</li>
